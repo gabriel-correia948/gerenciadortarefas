@@ -1,0 +1,32 @@
+.tarefas{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #333;
+}
+
+.tarefas .topTarefa{
+    background-color: #fff;
+    height: 50px;
+    padding: 10px;
+}
+
+.tarefas .topTarefa h1{
+    font-size: 5vh;
+    width: 100%;
+    font-weight: 800;
+    text-align: left;
+}
+
+.tarefas .listaTarefas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.listaTarefas article{
+    border: 1px solid #000;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
