@@ -1,38 +1,39 @@
-import './App.css';
-import Tarefa from './componentes/Tarefa';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-//icone das redes sociais
-import instagram from './instagram.png'
-import github from './github.png'
-import linkedin from './linkedin.png'
+import Header from './Components/Header';
+import Home from './Components/Home';
+import Sobre from './Components/Sobre';
+import CalcularDesconto from './Components/CalcularDesconto';
+import Contato from './Components/Contato';
+import Produto from './Components/Produtos';
+import ListarProduto from './Components/Produtos/listarProduto.js'
+import Footer from './Components/Footer';
+import Erro from './Components/Erro/index.js';
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <div>GERENCIADOR DE TAREFAS</div>
-      </header>
-      <nav>
-        <ul>
-        <li>Home</li>
-        <li>Sobre</li>
-        <li>Tarefas</li>
-        </ul>
-      </nav>
-      <main>
-        <Tarefa></Tarefa>
-      </main>
-      <footer>
-        <p>Desenvolvido por: khaylla</p>
-        <div>
-          <a href="#" ><img src={instagram} /></a>
-          <a href="#" ><img src={github} /></a>
-          <a href="#" ><img src={linkedin} /></a>
-        </div>
-      </footer>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Header />
+        <main>
+          <section>
+            <Routes>
+              <Route path='*' element={<Erro />} />
+              <Route path='/' element={<Home />} />
+              <Route path='/sobre' element={<Sobre />} />
+              <Route path='/produtos' element={<Produto />}/>
+              <Route path='/contato' element={<Contato />}/>
+              <Route path="/listarProduto/:id" element={<ListarProduto />} />
+              <Route path='/calcularDesconto' 
+              element={<CalcularDesconto valorCompra="1500" porcentagem="10" pagamento ="1"/>} />
+            </Routes>
+          </section>
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
 export default App;
-
