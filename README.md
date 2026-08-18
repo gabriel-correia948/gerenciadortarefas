@@ -1,97 +1,67 @@
-# ProjetoAulaReact
+# Getting Started with Create React App
 
----
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael%20Florindo-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/rafaelflorindo/)
-[![GitHub](https://img.shields.io/badge/GitHub-rafaelflorindo-lightgrey?style=flat&logo=github)](https://github.com/rafaelflorindo)
+## Available Scripts
 
-Este repositório contém um projeto de exemplo desenvolvido para fins educacionais, focando nos fundamentos do **React**. Ele serve como um material prático para demonstrar conceitos essenciais da biblioteca, como a criação de componentes, gerenciamento de estado, propriedades (props) e o ciclo de vida de componentes.
+In the project directory, you can run:
 
----
+### `npm start`
 
-## 🚀 Tecnologias Utilizadas
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-* **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-* **JavaScript**: Linguagem de programação principal.
-* **HTML5**: Estrutura da página.
-* **CSS3**: Estilização da interface.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
----
+### `npm test`
 
-## ✨ Funcionalidades
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-O projeto demonstra as seguintes funcionalidades básicas do React:
+### `npm run build`
 
-* Criação e uso de **componentes funcionais**.
-* Utilização de **Hooks** como `useState` para gerenciamento de estado local.
-* Passagem de dados entre componentes via **props**.
-* Renderização condicional de elementos.
-* Interação com o usuário através de eventos (ex: cliques em botões).
-* Estrutura básica de um aplicativo React.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## ⚙️ Como Rodar o Projeto
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Siga os passos abaixo para clonar e executar o projeto em sua máquina local:
+### `npm run eject`
 
-1.  **Clone o repositório:**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-    ```bash
-    git clone [https://github.com/rafaelflorindo/ProjetoAulaReact.git](https://github.com/rafaelflorindo/ProjetoAulaReact.git)
-    ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-2.  **Navegue até o diretório do projeto:**
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-    ```bash
-    cd ProjetoAulaReact
-    ```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-3.  **Instale as dependências:**
+## Learn More
 
-    ```bash
-    npm install
-    # ou
-    yarn install
-    ```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-4.  **Inicie a aplicação:**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-    ```bash
-    npm run dev
-    # ou
-    yarn dev
-    ```
+### Code Splitting
 
-    A aplicação será iniciada e geralmente estará acessível em `http://localhost:5173/` (verifique o console para o endereço exato).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
-## 📸 Screenshots / Demonstração
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-*(Em breve, adicionarei screenshots ou um GIF para demonstrar a interface e o funcionamento do projeto.)*
+### Making a Progressive Web App
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## 🤝 Contribuição
+### Advanced Configuration
 
-Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou quiser corrigir algum problema, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-## 📬 Contato
-
-Se tiver alguma dúvida ou sugestão, pode entrar em contato:
-
-* **Email**: rafaelflorindo.dev@gmail.com
-* **LinkedIn**: [Rafael Florindo](https://www.linkedin.com/in/rafaelflorindo/)
-* **GitHub**: [rafaelflorindo](https://github.com/rafaelflorindo)
+### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
