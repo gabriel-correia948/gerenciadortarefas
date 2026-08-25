@@ -1,26 +1,38 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import './App.css';
+import Tarefa from './componentes/Tarefa';
 
-import Header from './componentes/Header';
-import Footer from './componentes/Footer';
-
-import Home from './paginas/Home'
-import Contato from './paginas/Contato'
-import Sobre from './paginas/Sobre'
+//icone das redes sociais
+import instagram from './instagram.png'
+import github from './github.png'
+import linkedin from './linkedin.png'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
+    <div className="App">
+      <header>
+        <div>GERENCIADOR DE TAREFAS</div>
+      </header>
+      <nav>
+        <ul>
+        <li>Home</li>
+        <li>Sobre</li>
+        <li>Tarefas</li>
+        </ul>
+      </nav>
       <main>
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/contato" element={<Contato />}/>
-          <Route path="/sobre" element={<Sobre />}/>
-        </Routes>
+        <Tarefa></Tarefa>
       </main>
-      <Footer />
-    </BrowserRouter>
+      <footer>
+        <p>Desenvolvido por: khaylla</p>
+        <div>
+          <a href="#" ><img src={instagram} /></a>
+          <a href="#" ><img src={github} /></a>
+          <a href="#" ><img src={linkedin} /></a>
+        </div>
+      </footer>
+    </div>
   );
 }
 
 export default App;
+
