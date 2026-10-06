@@ -1,39 +1,81 @@
-main{
-    width: 90%;
+main {
+    width: 100%;
     margin: 0 auto;
 }
-header{
+
+header {
     width: 100%;
     height: 50px;
     border-bottom: 2px solid red;
 }
-header h1{
+
+header h1 {
     color: brown;
 }
-section{
+
+section {
     margin-top: 20px;
 }
-.boxfotoPerfil{
+
+.boxfotoPerfil {
     width: 100%;
     height: 400px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.imgfotoPerfil{
+
+.imgfotoPerfil {
     width: 300px;
     height: 300px;
-    border-color: 5px solid white;
+    border: 5px solid white; /* Corrigido o erro de sintaxe */
     border-radius: 50%;
+    object-fit: cover;
 }
-.boxfotoPerfil p{
+
+.boxfotoPerfil p {
     font-weight: 900;
     font-size: 24px;
     color: #333;
 }
-.habilidades{
 
+.habilidades {
+    background-color: #e2e2e2;
+    width: 100%;
+    display: flex;
+    gap: 15px;
 }
-article{
 
+article {
+    margin: 10px;
+    width: 33%;
+    border-radius: 7px;
+    background-color: #a2a2a2;
+    /* Alinha o conteúdo interno em coluna e centraliza */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+article .h2 {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+article img {
+    width: 80%;
+    margin: 0 auto 15px auto; /* Centraliza a imagem na horizontal */
+    display: block;
+    border: 1px solid #800606;
+    border-radius: 7px;
+}
+
+article .descricao {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
 }

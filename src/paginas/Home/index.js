@@ -1,10 +1,16 @@
 import './index.css'
 
+
 function Home() {
     return (
-        <section>
+        <main>
+        <header>
             <h1>Home</h1>
+        </header>
+        <section>
+
         </section>
+        </main>
     )
 }
 
